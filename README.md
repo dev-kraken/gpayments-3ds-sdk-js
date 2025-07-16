@@ -12,20 +12,30 @@ Production-ready 3D Secure authentication SDK for GPayments, optimized for CDN d
 
 ```html
 <!-- Production (Minified) -->
-<script src="https://cdn.jsdelivr.net/npm/@dev-kraken/3ds-sdk@1.0.0/devkraken-3ds-sdk.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/dev-kraken/gpayments-3ds-sdk-js@master/devkraken-3ds-sdk.min.js"></script>
 
 <!-- Development (Unminified) -->
-<script src="https://cdn.jsdelivr.net/npm/@dev-kraken/3ds-sdk@1.0.0/devkraken-3ds-sdk.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/dev-kraken/gpayments-3ds-sdk-js@master/devkraken-3ds-sdk.js"></script>
 ```
 
-### Alternative CDNs
+### Version-Specific CDN URLs
 
 ```html
-<!-- unpkg -->
-<script src="https://unpkg.com/@dev-kraken/3ds-sdk@1.0.0/devkraken-3ds-sdk.min.js"></script>
+<!-- Latest version (always up-to-date) -->
+<script src="https://cdn.jsdelivr.net/gh/dev-kraken/gpayments-3ds-sdk-js@latest/devkraken-3ds-sdk.min.js"></script>
 
-<!-- cdnjs -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/dev-kraken-3ds-sdk/1.0.0/devkraken-3ds-sdk.min.js"></script>
+<!-- Specific version (recommended for production) -->
+<script src="https://cdn.jsdelivr.net/gh/dev-kraken/gpayments-3ds-sdk-js@v1.0.0/devkraken-3ds-sdk.min.js"></script>
+
+<!-- Master branch (development) -->
+<script src="https://cdn.jsdelivr.net/gh/dev-kraken/gpayments-3ds-sdk-js@master/devkraken-3ds-sdk.min.js"></script>
+```
+
+### Alternative CDN Options
+
+```html
+<!-- GitHub raw (not recommended for production) -->
+<script src="https://raw.githubusercontent.com/dev-kraken/gpayments-3ds-sdk-js/master/devkraken-3ds-sdk.min.js"></script>
 ```
 
 ### NPM Installation
@@ -46,7 +56,7 @@ npm install @dev-kraken/3ds-sdk
     <div id="challenge-container"></div>
     <div id="iframe-container" style="display: none;"></div>
 
-    <script src="https://cdn.jsdelivr.net/npm/@dev-kraken/3ds-sdk@1.0.0/devkraken-3ds-sdk.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/dev-kraken/gpayments-3ds-sdk-js@master/devkraken-3ds-sdk.min.js"></script>
     <script>
         // Initialize SDK
         const sdk = new GPayments3DS({
