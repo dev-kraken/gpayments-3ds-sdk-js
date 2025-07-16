@@ -1,0 +1,47 @@
+{
+  "name": "@dev-kraken/3ds-sdk",
+  "version": "1.0.0",
+  "description": "DevKraken gpayment 3DS SDK - JavaScript Component for CDN Distribution",
+  "main": "devkraken-3ds-sdk.min.js",
+  "unpkg": "devkraken-3ds-sdk.min.js",
+  "jsdelivr": "devkraken-3ds-sdk.min.js",
+  "files": [
+    "devkraken-3ds-sdk.js",
+    "devkraken-3ds-sdk.min.js"
+  ],
+  "keywords": [
+    "3ds",
+    "3d-secure",
+    "payment",
+    "gpayments",
+    "gpayment",
+    "active server",
+    "activeserver",
+    "authentication",
+    "devkraken",
+    "sdk",
+    "javascript",
+    "cdn"
+  ],
+  "author": "DevKraken <soman@devkraken.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dev-kraken/gpayments-3ds-sdk-js"
+  },
+  "homepage": "https://devkraken.com/gpayments-3ds-sdk",
+  "bugs": {
+    "url": "https://github.com/dev-kraken/gpayments-3ds-sdk-js/issues"
+  },
+  "cdn": {
+    "jsdelivr": "https://cdn.jsdelivr.net/npm/@dev-kraken/3ds-sdk@1.0.0/devkraken-3ds-sdk.min.js",
+    "unpkg": "https://unpkg.com/@dev-kraken/3ds-sdk@1.0.0/devkraken-3ds-sdk.min.js",
+    "cdnjs": "https://cdnjs.cloudflare.com/ajax/libs/dev-kraken-3ds-sdk/1.0.0/devkraken-3ds-sdk.min.js"
+  },
+  "browser": {
+    "./devkraken-3ds-sdk.js": "./devkraken-3ds-sdk.min.js"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}

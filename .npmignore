@@ -1,0 +1,14 @@
+# NPM ignore file for CDN distribution
+*.md
+!README.md
+examples/
+tests/
+.git*
+.vscode/
+.idea/
+node_modules/
+coverage/
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
